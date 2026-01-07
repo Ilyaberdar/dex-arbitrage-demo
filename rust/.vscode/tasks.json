@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cargo build",
+            "dependsOn": [
+                "cargo build trader"
+            ]
+        },
+        {
+            "label": "cargo build release",
+            "dependsOn": [
+                "cargo build trader release"
+            ]
+        },
+
+        {
+            "label": "cargo build trader",
+            "type": "cargo",
+            "command": "build",
+            "args": [
+            ],
+            "env": {
+                "__LIBTORCH": "${workspaceFolder}/libtorch"
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+        },
+        {
+            "label": "cargo build trader release",
+            "type": "cargo",
+            "command": "build",
+            "args": [
+                "--release"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+        }
+    ]
+}

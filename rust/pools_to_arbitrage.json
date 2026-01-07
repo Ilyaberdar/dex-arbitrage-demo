@@ -1,0 +1,32 @@
+[
+  {
+    "pool_type": "V3",
+    "token0": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "token1": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "path": [
+      "0xf3eb87c1f6020982173c908e7eb31aa66c1f0296",
+      "0x7fCDC35463E3770c2fB992716Cd070B63540b947",
+      "0x6f38e884725a116C9C7fBF208e79FE8828a2595F"
+    ],
+    "roi": -0.13622473186225445,
+    "profit": -6.1131942743117325,
+    "priceDifference": -2.07,
+    "pool_fee": null,
+    "provider": "https://arb-mainnet.g.alchemy.com/v2/2S3IoADMLVdnijcimHMG9bzqpGhQ-Hgn"
+  },
+  {
+    "pool_type": "V2",
+    "token0": "0xC02aaa39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "path": [
+      "0x2E8135bE71230c6B1B4045696d41C09Db0414226",
+      "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+      "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc"
+    ],
+    "roi": -0.013951180504680126,
+    "profit": -1502.0141451743755,
+    "priceDifference": -1501.9829254933766,
+    "pool_fee": null,
+    "provider": "https://eth-mainnet.g.alchemy.com/v2/2S3IoADMLVdnijcimHMG9bzqpGhQ-Hgn"
+  }
+]

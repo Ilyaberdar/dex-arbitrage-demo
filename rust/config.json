@@ -1,0 +1,7 @@
+{
+    "cache": {
+        "dir": "cache",
+        "save_every": "2h"
+    },
+    "test": true
+}
